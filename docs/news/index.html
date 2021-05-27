@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Chunk R Markdown — rmd • chunky</title>
+<title>Changelog • chunky</title>
 
 
 <!-- jquery -->
@@ -39,8 +39,7 @@
 
 
 
-<meta property="og:title" content="Chunk R Markdown — rmd" />
-<meta property="og:description" content="Retrieve the R Markdown text from an object of class Chunk." />
+<meta property="og:title" content="Changelog" />
 
 
 
@@ -59,7 +58,7 @@
   </head>
 
   <body data-spy="scroll" data-target="#toc">
-    <div class="container template-reference-topic">
+    <div class="container template-news">
       <header>
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -111,42 +110,31 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Chunk R Markdown</h1>
-    <small class="dont-index">Source: <a href='https://github.com/jasenfinch/chunky/blob/master/R/chunk.R'><code>R/chunk.R</code></a></small>
-    <div class="hidden name"><code>rmd.Rd</code></div>
+      <h1 data-toc-skip>Changelog <small></small></h1>
+      <small>Source: <a href='https://github.com/jasenfinch/chunky/blob/master/NEWS.md'><code>NEWS.md</code></a></small>
     </div>
 
-    <div class="ref-description">
-    <p>Retrieve the R Markdown text from an object of class Chunk.</p>
-    </div>
-
-    <pre class="usage"><span class='fu'>rmd</span><span class='op'>(</span><span class='va'>x</span><span class='op'>)</span>
-
-<span class='co'># S4 method for Chunk</span>
-<span class='fu'>rmd</span><span class='op'>(</span><span class='va'>x</span><span class='op'>)</span></pre>
-
-    <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
-    <table class="ref-arguments">
-    <colgroup><col class="name" /><col class="desc" /></colgroup>
-    <tr>
-      <th>x</th>
-      <td><p>S4 object of class Chunk</p></td>
-    </tr>
-    </table>
-
-
-    <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='va'>x</span> <span class='op'>&lt;-</span> <span class='fu'><a href='chunk.html'>chunk</a></span><span class='op'>(</span><span class='fl'>1</span> <span class='op'>+</span> <span class='fl'>1</span><span class='op'>)</span>
-<span class='fu'>rmd</span><span class='op'>(</span><span class='va'>x</span><span class='op'>)</span>
-</div><div class='output co'>#&gt; ```{r}
-#&gt; 1 + 1
-#&gt; ```</div></pre>
+    <div id="chunky-010" class="section level1">
+<h1 class="page-header" data-toc-text="0.1.0">
+<a href="#chunky-010" class="anchor"></a>chunky 0.1.0</h1>
+<ul>
+<li><p>Initial version release.</p></li>
+<li><p>Added a <code>NEWS.md</code> file to track changes to the package.</p></li>
+<li><p>Added a <code>pkgdown</code> site available <a href="https://jasenfinch.github.io/chunky">here</a>.</p></li>
+<li><p>Added the <code>Chunk</code> S4 class for storing code chunk options.</p></li>
+<li><p>Added get and set methods for the <code>Chunk</code> S4 class.</p></li>
+<li><p>Added the <code>chunk</code> function for constructing R markdown code chunks.</p></li>
+<li><p>Added the <code>rmd</code> method for signature <code>Chunk</code> for extracting R Markdown chunk text.</p></li>
+</ul>
+</div>
   </div>
+
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">
       <h2 data-toc-skip>Contents</h2>
     </nav>
   </div>
+
 </div>
 
 

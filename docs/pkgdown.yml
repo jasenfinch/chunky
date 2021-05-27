@@ -2,7 +2,7 @@ pandoc: 2.11.2
 pkgdown: 1.6.1
 pkgdown_sha: ~
 articles: {}
-last_built: 2021-05-27T00:19Z
+last_built: 2021-05-27T00:24Z
 urls:
   reference: https://jasenfinch.github.io/metabolyseR//reference
   article: https://jasenfinch.github.io/metabolyseR//articles
