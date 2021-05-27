@@ -13,7 +13,7 @@ rmd(x)
 \item{x}{S4 object of class Chunk}
 }
 \description{
-Retrieve Rmarkdown from an object of class Chunk.
+Retrieve the R Markdown text from an object of class Chunk.
 }
 \examples{
 x <- chunk(1 + 1)

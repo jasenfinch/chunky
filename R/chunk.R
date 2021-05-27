@@ -41,7 +41,7 @@ setMethod('show',signature = 'Chunk',function(object){
 })
 
 #' Create an R Markdown code chunk
-#' @description Generate an Rmarkdown code chunk.
+#' @description Create an R Markdown code chunk.
 #' @param ... R expressions from which to generate a chunk
 #' @param label chunk label
 #' @param chunk_options knitr chunk options
@@ -215,7 +215,7 @@ collapseOptions <- function(options){
 
 #' Chunk R Markdown
 #' @rdname rmd
-#' @description Retrieve Rmarkdown from an object of class Chunk.
+#' @description Retrieve the R Markdown text from an object of class Chunk.
 #' @param x S4 object of class Chunk
 #' @examples
 #' x <- chunk(1 + 1)

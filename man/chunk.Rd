@@ -24,7 +24,7 @@ chunk(
 \item{text_below}{optional text to be placed below the code chunk}
 }
 \description{
-Generate an Rmarkdown code chunk.
+Create an R Markdown code chunk.
 }
 \examples{
 chunk(a <- 1,
