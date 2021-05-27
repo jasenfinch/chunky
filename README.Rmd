@@ -1,21 +1,29 @@
+---
+output: github_document
+---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
 
 # chunky
 
 <!-- badges: start -->
-
-[![Lifecycle:
-experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 [![R-CMD-check](https://github.com/jasenfinch/chunky/workflows/R-CMD-check/badge.svg)](https://github.com/jasenfinch/chunky/actions)
-[![Codecov test
-coverage](https://codecov.io/gh/jasenfinch/chunky/branch/main/graph/badge.svg)](https://codecov.io/gh/jasenfinch/chunky?branch=main)
+[![Codecov test coverage](https://codecov.io/gh/jasenfinch/chunky/branch/main/graph/badge.svg)](https://codecov.io/gh/jasenfinch/chunky?branch=main)
 <!-- badges: end -->
 
-> Programmatic R Markdown Code Chunk Generation
+>Programmatic R Markdown Code Chunk Generation
 
-The goal of chunky is to enable quick and simple programmatic generation
-of R Markdown code chunks.
+The goal of chunky is to enable quick and simple programmatic generation of R Markdown code chunks. 
 
 ## Installation
 
@@ -25,10 +33,9 @@ Install the `chunky` package from [GitHub](https://github.com/) with:
 # install.packages("devtools")
 devtools::install_github("jasenfinch/chunky")
 ```
-
 ## Example
 
-``` r
+```{r example}
 library(chunky)
 
 chunk(a <- 1,
@@ -38,13 +45,5 @@ chunk(a <- 1,
       chunk_options = list(eval = FALSE),
       text_above = 'Some example text above.',
       text_below = 'Some example text below.') 
-#> Some example text above.
-#> 
-#> ```{r example, eval=FALSE}
-#> a <- 1
-#> b <- 2
-#> a + b
-#> ```
-#> 
-#> Some example text below.
 ```
+
