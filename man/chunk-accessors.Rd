@@ -61,8 +61,6 @@ textBelow(x) <- value
 \item{x}{S4 object of class Chunk}
 
 \item{value}{value to set}
-
-\item{...}{R expressions to set}
 }
 \description{
 Get and set methods for Chunk S4 class.

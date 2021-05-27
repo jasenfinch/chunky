@@ -56,6 +56,7 @@ setMethod('show',signature = 'Chunk',function(object){
 #'       text_above = 'Some example text above.',
 #'       text_below = 'Some example text below.') 
 #' @importFrom rlang enexprs
+#' @importFrom methods new
 #' @export
 
 chunk <- function(...,
@@ -80,7 +81,6 @@ chunk <- function(...,
 #' @description Get and set methods for Chunk S4 class.
 #' @param x S4 object of class Chunk
 #' @param value value to set
-#' @param ... R expressions to set
 #' @export
 
 setGeneric('code', function(x)

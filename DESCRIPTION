@@ -9,14 +9,15 @@ Authors@R:
            comment = c(ORCID = "0000-0002-6070-7476"))
 Description: The goal of chunky is to enable quick and simple programmatic generation of R Markdown code chunks.
 Imports: glue,
-        rlang,
         knitr,
+        magrittr,
+        methods,
         purrr,
+        rlang,
         stringr,
         styler
 License: GPL (>= 3)
 Encoding: UTF-8
-LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 Suggests: 
