@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://jasenfinch.github.io/chunky/404.html</loc>
+  </url>
+  <url>
+    <loc>https://jasenfinch.github.io/chunky/LICENSE.html</loc>
+  </url>
+  <url>
+    <loc>https://jasenfinch.github.io/chunky/authors.html</loc>
+  </url>
+  <url>
+    <loc>https://jasenfinch.github.io/chunky/index.html</loc>
+  </url>
+  <url>
+    <loc>https://jasenfinch.github.io/chunky/news/index.html</loc>
+  </url>
+  <url>
+    <loc>https://jasenfinch.github.io/chunky/reference/Chunk-class.html</loc>
+  </url>
+  <url>
+    <loc>https://jasenfinch.github.io/chunky/reference/chunk-accessors.html</loc>
+  </url>
+  <url>
+    <loc>https://jasenfinch.github.io/chunky/reference/chunk.html</loc>
+  </url>
+  <url>
+    <loc>https://jasenfinch.github.io/chunky/reference/index.html</loc>
+  </url>
+  <url>
+    <loc>https://jasenfinch.github.io/chunky/reference/reexports.html</loc>
+  </url>
+  <url>
+    <loc>https://jasenfinch.github.io/chunky/reference/rmd.html</loc>
+  </url>
+</urlset>
