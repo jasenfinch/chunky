@@ -1,3 +1,7 @@
+# chunky 0.1.1
+
+* Fixed the `purrr` character conversion deprecation warning from the `rmd` method.
+
 # chunky 0.1.0
 
 * Initial version release.
