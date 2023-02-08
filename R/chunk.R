@@ -205,8 +205,11 @@ setMethod('textBelow<-',signature = 'Chunk',
 #' @importFrom stringr str_c
 
 collapseOptions <- function(options){
+  options <- options %>% 
+    map_chr(as.character)
+  
   if (length(options) > 0){
-    str_c(names(options),'=',flatten_chr(options)) %>%
+    str_c(names(options),'=',options) %>%
       str_c(collapse = ', ') 
   } else {
     return('')
